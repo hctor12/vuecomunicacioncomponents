@@ -72,7 +72,7 @@ const deleteComic = (index) => {
     <h1>Comics Padre</h1>
     <div>
       <form v-on:submit.prevent="createComic">
-        <label>Título::</label>
+        <label>Título:</label>
         <input type="text" v-model="comicForm.titulo" />
         <label>Imagen (URL):</label>
         <input type="text" v-model="comicForm.imagen" />
